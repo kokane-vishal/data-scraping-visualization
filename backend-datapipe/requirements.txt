@@ -1,0 +1,8 @@
+Django
+djangorestframework
+beautifulsoup4
+requests
+celery
+redis
+django-celery-beat
+django-cors-headers

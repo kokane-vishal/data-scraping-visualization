@@ -1,0 +1,39 @@
+# Ignore Python virtual environment
+venv/
+.venv/
+
+# Ignore Node.js dependencies
+node_modules/
+
+# Ignore build artifacts
+dist/
+build/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE-specific files
+.idea/
+*.pyc
+__pycache__/
+
+# Ignore log files
+*.log
+
+# Ignore environment files
+.env
+.env.*
+
+# Ignore temporary files
+*~
+\#*
+.*.swp
+
+# Ignore media files 
+/backend-datapipe/media/
+/datapipe/media/
+
+# Ignore SQLite database
+/backend-datapipe/db.sqlite3
+/datapipe/db.sqlite3
