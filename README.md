@@ -99,20 +99,21 @@ This project implements a custom data pipeline for web scraping and visualizatio
 ##  API Endpoints
 
 * Request `POST /api/scrapeddata/scrape/`: Scrape data from a URL.
+
      ```json
         {
             "url": "https://www.example.com"
-        }
-        ```
+        } 
 * Request `GET /api/scrapeddata/`: Retrieve scraped data.
+
     ```json
         {
                 "id": 1,
                 "url": "https://www.example.com",
-                "data": "Scraped data..."
-            }
-    ```
-
+                "data": "Scraped data....."
+                "timestamp": "date-time",
+                "user": 1
+        }
 ##  Notes
 
 * Authentication is temporarily disabled for demonstration purposes. In a production environment, proper user authentication would be implemented using JWT (JSON Web Tokens) to secure API endpoints and user data.
